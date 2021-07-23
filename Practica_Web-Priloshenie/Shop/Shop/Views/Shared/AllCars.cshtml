@@ -1,0 +1,21 @@
+﻿@model Shop.Data.Modules.Car
+
+<div class="col-lg-4">
+    <img class="img-thumbnail" scr="@Model.img" alt="car.name" />
+    <h2>
+        Модель: @Model.name
+    </h2>
+
+    <p>
+        @Model.shortDesc
+    </p>
+
+    <p>
+        Цена: @Model.price.ToString("c")
+    </p>
+
+    <p>
+        <a class="btn btn-warning" href="#">Подробнее</a>
+    </p>
+</div>
+            
